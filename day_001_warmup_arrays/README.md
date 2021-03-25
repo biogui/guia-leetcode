@@ -51,9 +51,9 @@ public:
 ```
 
 ### Resolução
-- Abordagem de dois ponteiros;
-- Os dois ponteiros são iniciados no começo do array e percorrem juntos até que cheguem a um 0 (realizando fake swaps da mesma posição para a mesma posição). A partir daí o ponteiro left_zero marcará a posição do zero mais a esquerda;
-- Em seguida, o ponteiro curr itera pelo array até o primeiro valor não-nulo depois do left_zero, realizando o swap quando o encontra.
+* Abordagem de dois ponteiros;
+* Os dois ponteiros são iniciados no começo do array e percorrem juntos até que cheguem a um 0 (realizando fake swaps da mesma posição para a mesma posição). A partir daí o ponteiro left_zero marcará a posição do zero mais a esquerda;
+* Em seguida, o ponteiro curr itera pelo array até o primeiro valor não-nulo depois do left_zero, realizando o swap quando o encontra.
 
 ### Complexidades
 * Espaço: O(n)
