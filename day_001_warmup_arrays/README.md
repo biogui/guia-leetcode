@@ -1,7 +1,3 @@
----
-tags: Leet_Code
----
-
 # Day 001: Warm Up - Arrays
 
 ## [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)
