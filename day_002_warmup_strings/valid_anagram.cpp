@@ -15,7 +15,6 @@ public:
             hashmap[t[i]]--;
         }
         
-        //a-> 97 A->65
         for (pair<char, int> el : hashmap) {
             if (el.second != 0) {
                 return false;
