@@ -145,3 +145,13 @@
 - [ Dia 011 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_011_arrays_5)
 
 ---
+
+### Dia 012: Strings #1:
+
+**Problema**:
+
+- [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)
+
+**Solução**:
+
+- [ Dia 012 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_012_strings_1)
