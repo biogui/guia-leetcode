@@ -1,19 +1,19 @@
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        unordered_map<int, int> hashmap;
+        unordered_map<int, int> nums1_freq;
         for (int num : nums1) {
-            hashmap[num]++;
+            nums1_freq[num]++;
         }
         
-        vector<int> ans;
-        
+        vector<int> intersect;
         for (int num : nums2) {
-            if (hashmap[num]) {
-                ans.push_back(num);
-                hashmap[num]--;
+            if (nums1_freq[num]) {
+                intersect.push_back(num);
+                nums1_freq[num]--;
             }
         }
-        return ans;
+
+        return intersect;
     }
 };
