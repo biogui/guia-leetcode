@@ -1,114 +1,125 @@
-# Leet Code Guide - Ebbinghaus Forgetting Curve
+# Guia LeetCode - Curva de Esquecimento de Ebbinghaus
 
-### Day 1: Warm up - Arrays:
+### Dia 1: Warm up - Arrays:
 
-**Problems**:
+**Problema**:
 
 [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)
 
 [Move Zeroes](https://leetcode.com/problems/move-zeroes/)
 
-**Solutions**: 
+**Solução**: 
 
-[ Day 01 - Solutions](https://github.com/biogui/guia-leetcode/tree/main/day_001_warmup_arrays)
+[ Dia 01 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_001_warmup_arrays)
 
-### Day 2: Warm up - Strings
+### Dia 2: Warm up - Strings
 
-**Problems**:
+**Problema**:
 
 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 
 [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 
-**Solutions**: 
+**Soluçãos**: 
 
-[ Day 02 - Solutions](https://github.com/biogui/guia-leetcode/tree/main/day_002_warmup_strings)
+[ Dia 02 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_002_warmup_strings)
 
-### Day 3: Warm up - Linked List
+### Dia 3: Warm up - Linked List
 
-**Problems**:
+**Problema**:
 
 [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 
 [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 
-**Solutions**: 
+**Soluçãos**: 
 
-[ Day 03 - Solutions](https://github.com/biogui/guia-leetcode/tree/main/day_003_warmup_linked_list)
+[ Dia 03 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_003_warmup_linked_list)
 
-### Day 4: Warm up - Trees
+### Dia 4: Warm up - Trees
 
-**Problems**:
+**Problema**:
 
 [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 
 [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
 
-**Solutions**:
+**Soluçãos**:
 
-[ Day 04 - Solutions](https://github.com/biogui/guia-leetcode/tree/main/day_004_warmup_trees)
+[ Dia 04 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_004_warmup_trees)
 
-### Day 5: Warm up - Graph
+### Dia 5: Warm up - Graph
 
-**Problems**:
+**Problema**:
 
 [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 [Employee Importance](https://leetcode.com/problems/employee-importance/)
 
-**Solutions**:
+**Soluçãos**:
 
-[ Day 05 - Solutions](https://github.com/biogui/guia-leetcode/tree/main/day_005_warmup_graph)
+[ Dia 05 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_005_warmup_graph)
 
 
-### Day 6: Warm up - Hash
+### Dia 6: Warm up - Hash
 
-**Problems**:
+**Problema**:
 
 [Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)
 
 [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)
 
-**Solutions**:
+**Soluçãos**:
 
-[ Day 06 - Solutions](https://github.com/biogui/guia-leetcode/tree/main/day_006_warmup_hash)
+[ Dia 06 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_006_warmup_hash)
 
-### Day 7: Arrays #1:
+### Dia 7: Arrays #1:
 
-**Problem**:
+**Problema**:
 
 [Rotate Image](https://leetcode.com/problems/rotate-image/)
 
-**Solution**:
+**Solução**:
 
-[ Day 07 - Solution](https://github.com/biogui/guia-leetcode/tree/main/day_007_arrays_1)
+[ Dia 07 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_007_arrays_1)
 
-### Day 8: Arrays #2:
+### Dia 8: Arrays #2:
 
-**Problem**:
+**Problema**:
 
 [3sum](https://leetcode.com/problems/3sum/)
 
-**Solution**:
+**Solução**:
 
-[ Day 08 - Solution](https://github.com/biogui/guia-leetcode/tree/main/day_008_arrays_2)
+[ Dia 08 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_008_arrays_2)
 
-### Day 9: Arrays #3:
+### Dia 9: Arrays #3:
 
-**Problem**:
+**Problema**:
 
 [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
-**Solution**:
+**Solução**:
 
-[ Day 09 - Solution](https://github.com/biogui/guia-leetcode/tree/main/day_009_arrays_3)
+[ Dia 09 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_009_arrays_3)
 
-### Day 10: Arrays #4:
+### Dia 10: Arrays #4:
 
-**Problem**:
+**Problema**:
 
 [Tuple with Same Product](https://leetcode.com/problems/tuple-with-same-product/)
 
-**Solution**:
+**Solução**:
 
-[ Day 10 - Solution](https://github.com/biogui/guia-leetcode/tree/main/day_010_arrays_4)
+[ Dia 10 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_010_arrays_4)
+
+
+### Dia 11: Arrays #5:
+
+**Problema**:
+
+[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)
+
+**Solução**:
+
+[ Dia 11 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_011_arrays_5)
