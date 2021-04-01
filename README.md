@@ -10,7 +10,7 @@
 
 **Solução**: 
 
-[ Dia 01 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_001_warmup_arrays)
+[ Dia 01 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_001_warmup_arrays)
 
 ### Dia 2: Warm up - Strings
 
@@ -22,7 +22,7 @@
 
 **Soluçãos**: 
 
-[ Dia 02 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_002_warmup_strings)
+[ Dia 02 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_002_warmup_strings)
 
 ### Dia 3: Warm up - Linked List
 
@@ -34,7 +34,7 @@
 
 **Soluçãos**: 
 
-[ Dia 03 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_003_warmup_linked_list)
+[ Dia 03 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_003_warmup_linked_list)
 
 ### Dia 4: Warm up - Trees
 
@@ -46,7 +46,7 @@
 
 **Soluçãos**:
 
-[ Dia 04 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_004_warmup_trees)
+[ Dia 04 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_004_warmup_trees)
 
 ### Dia 5: Warm up - Graph
 
@@ -58,7 +58,7 @@
 
 **Soluçãos**:
 
-[ Dia 05 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_005_warmup_graph)
+[ Dia 05 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_005_warmup_graph)
 
 
 ### Dia 6: Warm up - Hash
@@ -71,7 +71,7 @@
 
 **Soluçãos**:
 
-[ Dia 06 - Soluçãos](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_006_warmup_hash)
+[ Dia 06 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_006_warmup_hash)
 
 ### Dia 7: Arrays #1:
 
