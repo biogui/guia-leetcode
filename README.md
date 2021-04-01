@@ -52,7 +52,7 @@
 
 **Soluções**:
 
-- [ Dia 04 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_004_warmup_trees)
+- [ Dia 004 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_004_warmup_trees)
 
 ---
 
