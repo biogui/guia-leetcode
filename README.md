@@ -10,7 +10,7 @@
 
 **Soluções**: 
 
-[ Dia 001 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_001_warmup_arrays)
+[ Dia 001 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_001_warmup_arrays)
 
 ---
 
@@ -24,7 +24,7 @@
 
 **Soluções**: 
 
-- [ Dia 002 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_002_warmup_strings)
+- [ Dia 002 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_002_warmup_strings)
 
 ---
 
@@ -38,7 +38,7 @@
 
 **Soluções**: 
 
-- [ Dia 003 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_003_warmup_linked_list)
+- [ Dia 003 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_003_warmup_linked_list)
 
 ---
 
@@ -52,7 +52,7 @@
 
 **Soluções**:
 
-- [ Dia 004 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_004_warmup_trees)
+- [ Dia 004 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_004_warmup_trees)
 
 ---
 
@@ -66,7 +66,7 @@
 
 **Soluções**:
 
-- [ Dia 005 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_005_warmup_graph)
+- [ Dia 005 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_005_warmup_graph)
 
 ---
 
@@ -81,7 +81,7 @@
 
 **Soluções**:
 
-- [ Dia 006 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_006_warmup_hash)
+- [ Dia 006 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_006_warmup_hash)
 
 ---
 
@@ -93,7 +93,7 @@
 
 **Solução**:
 
-- [ Dia 007 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_007_arrays_1)
+- [ Dia 007 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_007_arrays_1)
 
 ---
 
@@ -105,7 +105,7 @@
 
 **Solução**:
 
-- [ Dia 008 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_008_arrays_2)
+- [ Dia 008 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_008_arrays_2)
 
 ---
 
@@ -117,7 +117,7 @@
 
 **Solução**:
 
-- [ Dia 009 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_009_arrays_3)
+- [ Dia 009 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_009_arrays_3)
 
 ---
 
@@ -129,7 +129,7 @@
 
 **Solução**:
 
-- [ Dia 010 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_010_arrays_4)
+- [ Dia 010 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_010_arrays_4)
 
 ---
 
@@ -142,7 +142,7 @@
 
 **Solução**:
 
-- [ Dia 011 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_011_arrays_5)
+- [ Dia 011 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_011_arrays_5)
 
 ---
 
@@ -154,4 +154,4 @@
 
 **Solução**:
 
-- [ Dia 012 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/day_012_strings_1)
+- [ Dia 012 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_012_strings_1)
