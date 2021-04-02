@@ -7,9 +7,7 @@ class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
         unordered_map<int, int> nums1_freq;
-        for (int num : nums1) {
-            nums1_freq[num]++;
-        }
+        for (int num : nums1) nums1_freq[num]++;
         
         vector<int> intersect;
         for (int num : nums2) {
@@ -18,17 +16,18 @@ public:
                 nums1_freq[num]--;
             }
         }
-
+        
         return intersect;
     }
 };
-
 ```
 
 ### Resolução
 * Cria-se um hashmap de frequência cujas chaves são os números do primeiro array e os valores são as frequências dos próprios números;
-* Itera-se no segundo array e é verificado se a chave já existe no  hashmap. Caso exista, o valor é adicionado ao array de resposta e a frequência é decrementada no hashmap criado inicialmente. 
-    
+* Itera-se no segundo array e é verificado se a chave já existe no hashmap;
+* Caso exista, o valor é adicionado ao array de resposta e a frequência é decrementada no hashmap criado inicialmente;
+* Ao final retornamos o array completo.
+
 ### Complexidades
 * Espaço: O(max(n,m))
 * Tempo: O(max(n,m))
@@ -52,7 +51,6 @@ public:
         }
     }
 };
-
 ```
 
 ### Resolução

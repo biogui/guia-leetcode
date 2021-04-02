@@ -2,6 +2,16 @@
 
 ## [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 ```cpp=
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
@@ -9,9 +19,8 @@ public:
         
         ListNode* prev = NULL;
         ListNode* cur = head;
-        ListNode* next = NULL;
         while (cur != NULL) {
-            next = cur->next;
+            ListNode* next = cur->next;
             cur->next = prev;
             
             prev = cur;
@@ -29,7 +38,7 @@ public:
 * O cur aponta para o seu antecessor (prev);
 * No fim da iteração andamos com os duas primeiras referências (prev e cur);
 * Repete-se até que cur seja nulo.
-    
+
 ### Complexidades
 * Espaço: O(n)
 * Tempo: O(1)
@@ -38,15 +47,25 @@ public:
 
 ## [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)
 ```cpp=
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         ListNode* prev = NULL;
         ListNode* cur = head;
-        ListNode* next = NULL;
         while (cur) {
-            next = cur->next;
+            ListNode* next = cur->next;
             cur->next = prev;
+            
             prev = cur;
             cur = next;
         }
@@ -59,14 +78,12 @@ public:
         
         ListNode* slow = head;
         ListNode* fast = head;
-        
         while (fast != NULL && fast->next != NULL) {
             slow = slow->next;
             fast = fast->next->next;
         }
         
         slow = reverseList(slow);
-        
         while (slow != NULL) {
             if (slow->val != head->val) return false;
             slow = slow->next;
@@ -80,10 +97,11 @@ public:
 
 ### Resolução
 * Temos um ponteiro que percorre o array de forma lenta e outro de forma rápida ("Floyd's tortoise and hare"), dessa forma encontramos o meio do vetor (slow);
-* Revertemos a segunda metade da lista e assim andamos a partir do começo do vetor e do meio revertido, verificando se os valores são diferentes
+* Revertemos a segunda metade da lista;
+* Após isso, iteramos com dois ponteiros, um a partir do começo do array e do meio revertido, verificando se os valores são diferentes;
 * Caso sejam, retornamos "false";
-* Se nenhum valor diferir, retornamos "true" após o loop; 
-    
+* Se nenhum valor diferir, é retornado "true" após o loop;
+
 ### Complexidades
 * Espaço: O(1)
 * Tempo: O(n)

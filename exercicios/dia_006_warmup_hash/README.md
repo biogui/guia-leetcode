@@ -6,9 +6,7 @@ class Solution {
 public:
     int sumOfUnique(vector<int>& nums) {
         unordered_map<int, int> nums_freq;
-        for (int num : nums) {
-            nums_freq[num]++;
-        }
+        for (int num : nums) nums_freq[num]++;
         
         int unique_sum = 0;
         for (int num : nums) {
@@ -21,9 +19,9 @@ public:
 ```
 
 ### Resolução
-* Criamos um hash_map de frequência a partir do vetor inicial; 
-* Iteramos pelo hash_map, acrescentando na soma os valores únicos;
-    
+* Criamos um hash_map de frequência a partir do vetor inicial;
+* Iteramos pelo hash_map, incrementando na soma os valores únicos.
+
 ### Complexidades
 * Espaço: O(n)
 * Tempo: O(n)
@@ -36,10 +34,8 @@ class Solution {
 public:
     int findKthPositive(vector<int>& arr, int k) {
         unordered_set<int> arr_set;
-        for (int num : arr) {   
-            arr_set.insert(num);
-        }
-    
+        for (int num : arr) arr_set.insert(num);
+        
         for (int i = 1; i <= 2000; i++) {
             if (arr_set.find(i) == arr_set.end()) k--;
             if (k == 0) return i;
@@ -51,10 +47,10 @@ public:
 ```
 
 ### Resolução
-* Criamos um hash_set a partir do vetor inicial
+* Criamos um hash_set a partir do vetor inicial;
 * Como os números presentes no array e o 'k' são menores ou iguais a 1000, o k-ésimo número perdido, no pior caso, é 2000;
 * Assim, iteramos de 1 até 2000, e caso o número não esteja presente no set decrementamos o k;
-* Se 'k' zera, saimos do loop, retornando o k-ésimo número perdido; 
+* Se 'k' zera, saimos do loop, retornando o k-ésimo número perdido.
 
 ### Complexidades
 * Espaço: O(n)
