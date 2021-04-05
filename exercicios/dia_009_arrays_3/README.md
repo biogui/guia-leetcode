@@ -1,4 +1,4 @@
-x# Day 009: Arrays #3
+# Day 009: Arrays #3
 
 ## [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
