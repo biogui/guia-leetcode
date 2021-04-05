@@ -6,14 +6,14 @@
 class Solution {
 public:
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
-        unordered_map<int, int> nums1_freq;
-        for (int num : nums1) nums1_freq[num]++;
+        unordered_map<int, int> nums1Freq;
+        for (int num : nums1) nums1Freq[num]++;
         
         vector<int> intersect;
         for (int num : nums2) {
-            if (nums1_freq[num]) {
+            if (nums1Freq[num]) {
                 intersect.push_back(num);
-                nums1_freq[num]--;
+                nums1Freq[num]--;
             }
         }
         
@@ -41,11 +41,11 @@ public:
     void moveZeroes(vector<int>& nums) {
         if (nums.size() < 2) return;
         
-        int left_zero = 0, cur = 0;
+        int leftZero = 0, cur = 0;
         while(cur < nums.size()) {
             if (nums[cur] != 0) {
-                swap(nums[left_zero], nums[cur]);
-                left_zero++;
+                swap(nums[leftZero], nums[cur]);
+                leftZero++;
             }
             cur++;
         }

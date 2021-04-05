@@ -18,28 +18,28 @@ public:
     vector<vector<int>> levelOrder(TreeNode* root) {
         if (root == NULL) return {};
         
-        vector<vector<int>> tree_by_level;
+        vector<vector<int>> treeByLevel;
         
-        queue<TreeNode *> next_nodes;
-        next_nodes.push(root);
+        queue<TreeNode *> nextNodes;
+        nextNodes.push(root);
         
-        while (!next_nodes.empty()) {
+        while (!nextNodes.empty()) {
             vector<int> nodes;
-            int size = next_nodes.size();
+            int size = nextNodes.size();
             
             for (int i = 0; i < size; i++) {
-                TreeNode *cur = next_nodes.front();
+                TreeNode *cur = nextNodes.front();
                 nodes.push_back(cur->val);
-                next_nodes.pop();
+                nextNodes.pop();
                 
-                if (cur->left) next_nodes.push(cur->left);
-                if (cur->right) next_nodes.push(cur->right);
+                if (cur->left) nextNodes.push(cur->left);
+                if (cur->right) nextNodes.push(cur->right);
             }
             
-            tree_by_level.push_back(nodes);
+            treeByLevel.push_back(nodes);
         }
         
-        return tree_by_level;
+        return treeByLevel;
     }
 };
 ```
@@ -68,25 +68,25 @@ public:
 class Solution {
 public:
     int getImportance(vector<Employee*> employees, int id) {
-        map<int, pair<int, vector<int>>> employees_map;
+        map<int, pair<int, vector<int>>> employeesMap;
         for (Employee* emp : employees) {
-            employees_map[emp->id] = make_pair(emp->importance, emp->subordinates);
+            employeesMap[emp->id] = make_pair(emp->importance, emp->subordinates);
         }
         
         stack<int> next_nodes;
         next_nodes.push(id);
         
-        int importance_sum = 0;
+        int importanceSum = 0;
         while (!next_nodes.empty()) {
-            pair<int, vector<int>> cur = employees_map[next_nodes.top()];
+            pair<int, vector<int>> cur = employeesMap[next_nodes.top()];
             next_nodes.pop();
             
-            importance_sum += cur.first;
+            importanceSum += cur.first;
             
             for (int sub : cur.second) next_nodes.push(sub);
         }
         
-        return importance_sum;
+        return importanceSum;
     }
 };
 ```

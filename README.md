@@ -85,7 +85,7 @@
 
 ---
 
-### Dia 007: Arrays #1:
+### Dia 007: Arrays #1
 
 **Problema**:
 
@@ -97,7 +97,7 @@
 
 ---
 
-### Dia 008: Arrays #2:
+### Dia 008: Arrays #2
 
 **Problema**:
 
@@ -109,19 +109,19 @@
 
 ---
 
-### Dia 009: Arrays #3:
+### Dia 009: Arrays #3
 
 **Problema**:
 
 - [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 
-**Solução**:
+**Soluções**:
 
-- [ Dia 009 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_009_arrays_3)
+- [ Dia 009 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_009_arrays_3)
 
 ---
 
-### Dia 010: Arrays #4:
+### Dia 010: Arrays #4
 
 **Problema**:
 
@@ -134,7 +134,7 @@
 ---
 
 
-### Dia 011: Arrays #5:
+### Dia 011: Arrays #5
 
 **Problema**:
 
@@ -146,7 +146,7 @@
 
 ---
 
-### Dia 012: Strings #1:
+### Dia 012: Strings #1
 
 **Problema**:
 

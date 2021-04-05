@@ -7,12 +7,12 @@ public:
     bool isAnagram(string s, string t) {
         if (s.size() != t.size()) return false;
         
-        unordered_map<char, int> s_chars_freq;
-        for (int i = 0; i < s.size(); i++) s_chars_freq[s[i]]++;
+        unordered_map<char, int> sCharsFreq;
+        for (int i = 0; i < s.size(); i++) sCharsFreq[s[i]]++;
         
-        for (int i = 0; i < t.size(); i++) s_chars_freq[t[i]]--;
+        for (int i = 0; i < t.size(); i++) sCharsFreq[t[i]]--;
         
-        for (pair<char, int> el : s_chars_freq) {
+        for (pair<char, int> el : sCharsFreq) {
             if (el.second != 0) return false;
         }
         
@@ -41,14 +41,14 @@ public:
     bool isPalindrome(string s) {
         int start = 0, end = s.size() - 1;
         while (start < end) {
-            bool are_valids_chars = (isalnum(s[start]) && isalnum(s[end]));
+            bool areValidsChars = (isalnum(s[start]) && isalnum(s[end]));
             
-            if (are_valids_chars && tolower(s[start]) != tolower(s[end])) {
+            if (areValidsChars && tolower(s[start]) != tolower(s[end])) {
                 return false;
             }
             
-            start += (are_valids_chars) + (!isalnum(s[start]));
-            end -= (are_valids_chars) + (!isalnum(s[end]));
+            start += (areValidsChars) + (!isalnum(s[start]));
+            end -= (areValidsChars) + (!isalnum(s[end]));
         }
         
         return true;

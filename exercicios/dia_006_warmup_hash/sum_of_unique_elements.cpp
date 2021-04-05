@@ -1,14 +1,14 @@
 class Solution {
 public:
 	int sumOfUnique(vector<int>& nums) {
-		unordered_map<int, int> nums_freq;
-		for (int num : nums) nums_freq[num]++;
+		unordered_map<int, int> numsFreq;
+		for (int num : nums) numsFreq[num]++;
 		
-		int unique_sum = 0;
+		int uniqueSum = 0;
 		for (int num : nums) {
-			if (nums_freq[num] == 1) unique_sum += num;
+			if (numsFreq[num] == 1) uniqueSum += num;
 		}
 		
-		return unique_sum;
+		return uniqueSum;
 	}
 };
