@@ -10,7 +10,7 @@
 
 **Soluções**: 
 
-[ Dia 001 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_001_warmup_arrays)
+- [ Dia 001 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_001_warmup_arrays)
 
 ---
 
