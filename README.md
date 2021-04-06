@@ -167,3 +167,15 @@
 **Solução**:
 
 - [ Dia 013 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_013_strings_2)
+
+---
+
+### Dia 014: Strings #3
+
+**Problema**:
+
+- [Find Kth Bit in Nth Binary String](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/)
+
+**Solução**:
+
+- [ Dia 014 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_014_strings_3)
