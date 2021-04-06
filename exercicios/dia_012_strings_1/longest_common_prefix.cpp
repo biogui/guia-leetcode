@@ -1,24 +1,23 @@
 class Solution {
 public:
-    string longestCommonPrefix(vector<string>& strs) {
-        int amt_strs = strs.size();
-        if (amt_strs == 0) return "";
+	string longestCommonPrefix(vector<string>& strs) {
+		if (strs.size() == 0) return "";
 
-        int min_size = INT_MAX;
-        for (int i = 0; i < amt_strs; i++) {
-            if (strs[i].size() < min_size) {
-                min_size = strs[i].size();
-            }
-        }
+		int minSize = INT_MAX;
+		for (int i = 0; i < strs.size(); i++) {
+			if (strs[i].size() < minSize) {
+				minSize = strs[i].size();
+			}
+		}
 
-        for (int i = 0; i < min_size; i++) {
-            for (int j = 1; j < amt_strs; j++) {
-                if (strs[0][i] != strs[j][i]) {
-                    return strs[0].substr(0, i);
-                }
-            }
-        }
+		for (int i = 0; i < minSize; i++) {
+			for (int j = 1; j < strs.size(); j++) {
+				if (strs[0][i] != strs[j][i]) {
+					return strs[0].substr(0, i);
+				}
+			}
+		}
 
-        return strs[0].substr(0, min_size);
-    }
+		return strs[0].substr(0, minSize);
+	}
 };

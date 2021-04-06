@@ -155,3 +155,15 @@
 **Solução**:
 
 - [ Dia 012 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_012_strings_1)
+
+---
+
+### Dia 013: Strings #2
+
+**Problema**:
+
+- [Count and Say](https://leetcode.com/problems/count-and-say/)
+
+**Solução**:
+
+- [ Dia 013 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_013_strings_2)
