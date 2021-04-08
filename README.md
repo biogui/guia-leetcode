@@ -179,3 +179,15 @@
 **Solução**:
 
 - [ Dia 014 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_014_strings_3)
+
+---
+
+### Dia 015: Strings #4
+
+**Problema**:
+
+- [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+
+**Solução**:
+
+- [ Dia 015 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_015_strings_4)
