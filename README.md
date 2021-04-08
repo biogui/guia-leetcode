@@ -191,3 +191,15 @@
 **Solução**:
 
 - [ Dia 015 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_015_strings_4)
+
+---
+
+### Dia 016: Strings #5
+
+**Problema**:
+
+- [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+
+**Solução**:
+
+- [ Dia 016 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_016_strings_5)
