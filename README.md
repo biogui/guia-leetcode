@@ -203,3 +203,15 @@
 **Solução**:
 
 - [ Dia 016 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_016_strings_5)
+
+---
+
+### Dia 017: Linked List #1
+
+**Problema**:
+
+- [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+
+**Soluções**:
+
+- [ Dia 017 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_017_linked_list_1)
