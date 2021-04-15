@@ -215,3 +215,16 @@
 **Soluções**:
 
 - [ Dia 017 - Soluções](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_017_linked_list_1)
+
+
+---
+
+### Dia 018: Linked List #2
+
+**Problema**:
+
+- [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
+
+**Solução**:
+
+- [ Dia 018 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_018_linked_list_2)
