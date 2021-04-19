@@ -228,3 +228,27 @@
 **Solução**:
 
 - [ Dia 018 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_018_linked_list_2)
+
+---
+
+### Dia 019: Linked List #3
+
+**Problema**:
+
+- [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)
+
+**Solução**:
+
+- [ Dia 019 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_019_linked_list_3)
+
+---
+
+### Dia 020: Linked List #4
+
+**Problema**:
+
+- [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)
+
+**Solução**:
+
+- [ Dia 020 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_020_linked_list_4)
