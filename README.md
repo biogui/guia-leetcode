@@ -252,3 +252,15 @@
 **Solução**:
 
 - [ Dia 020 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_020_linked_list_4)
+
+---
+
+### Dia 021: Linked List #5
+
+**Problema**:
+
+- [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
+
+**Solução**:
+
+- [ Dia 021 - Solução](https://github.com/biogui/guia-leetcode/tree/main/exercicios/dia_021_linked_list_5)
